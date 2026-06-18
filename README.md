@@ -44,3 +44,14 @@ https://www.horizon-sci-comm.us/bioinformatics-services
 
 ![Overview](catharanthus_abstract_v5_clean.svg)
 
+
+## ⚙️ RNA-seq Analysis Workflow
+
+<p align="center">
+  <img src="Catharansus_RNA-Seq_pipeline.png" alt="RNA-seq pipeline" width="900">
+</p>
+
+
+
+
+
