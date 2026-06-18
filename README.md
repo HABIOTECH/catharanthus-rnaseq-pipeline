@@ -47,6 +47,25 @@ https://www.horizon-sci-comm.us/bioinformatics-services
 
 ## ⚙️ RNA-seq Analysis Workflow
 
+### Phase 1: Setup
+- HPC job submission (SGE / Slurm)
+
+### Phase 2: Core Pipeline
+1. Download reference genome (NCBI)
+2. Build HISAT2 index
+3. Align RNA-seq reads
+4. Convert SAM → sorted BAM (SAMtools)
+5. Generate gene counts (featureCounts)
+6. Extract gene lengths (gtftools)
+7. Extract DEG sequences (Python)
+
+### Phase 3: Extended Analysis
+- Re-mapping to alternative genome
+- Alignment QC (flagstat)
+
+
+## ⚙️ RNA-seq Analysis Workflow
+
 <p align="center">
   <img src="Catharansus_RNA-Seq_pipeline.png" alt="RNA-seq pipeline" width="900">
 </p>
