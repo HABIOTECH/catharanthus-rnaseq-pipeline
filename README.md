@@ -37,6 +37,35 @@ https://www.horizon-sci-comm.us/bioinformatics-services
 - Abeer Farag, PhD  
 - Hesham Abdullah, PhD  
 
+## 📊 Data Sources
+
+### RNA-seq Data
+
+- **Study:** Catharanthus roseus RNA-Seq (Medicinal Plants Consortium)  
+- **Accession:** SRP005953  
+- **Platform:** Illumina RNA Sequencing  
+- **Description:** Transcriptome analysis of *Catharanthus roseus* across multiple tissues.
+
+🔗 [NCBI SRA Study (SRP005953)](https://www.ncbi.nlm.nih.gov/sra?term=SRP005953)
+
+---
+
+### Reference Genomes
+
+- **NCBI Reference Genome:**
+  GCA_024505715.1 (*Catharanthus roseus*)  
+  🔗 [Download from NCBI](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/024/505/715/GCA_024505715.1_ASM2450571v1/)
+
+- **Alternative Genome Resource:**
+  CroFGD database  
+  🔗 [Download from CAU Bioinformatics](https://bioinformatics.cau.edu.cn/croFGD/download.php)
+
+  ### Related Publication
+
+- Gongora et al. (Medicinal Plants Consortium study)  
+- 🔗 [PubMed: Iridoid biosynthesis study](https://pubmed.ncbi.nlm.nih.gov/23172143/)
+``
+
 ## 🧬 Research Overview
 
 ![Overview](catharanthus_abstract_v5_clean.svg)
