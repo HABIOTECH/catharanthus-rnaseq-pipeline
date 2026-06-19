@@ -35,6 +35,53 @@ cr-genome-rnaseq-pipeline/
 └── .gitignore
 
 
+## 🧰 Tools & Requirements
+
+The following tools are required to run the RNA-seq analysis pipeline:
+
+### Core Tools
+- **HISAT2 (v2.0.1 / v2.1.0)**  
+  Read alignment and genome indexing
+
+- **SAMtools (v1.8)**  
+  SAM to BAM conversion, sorting, indexing, and alignment statistics
+
+- **Subread / featureCounts (v2.0.5)**  
+  Gene-level read quantification
+
+- **gtftools**  
+  Gene length extraction from GTF annotation
+
+---
+
+### Programming Environment
+
+- **Python (v3.x)**  
+  Used for downstream DEG sequence extraction and annotation  
+
+#### Required Python packages:
+- pandas  
+- biopython  
+- openpyxl  
+- gffutils  
+
+---
+
+### Optional / HPC Environment
+
+- **SGE or Slurm scheduler**  
+  For job submission and parallel processing on HPC systems
+
+---
+
+### Installation Notes
+
+Install Python dependencies using:
+
+pip install pandas biopython openpyxl gtftools gffutils
+
+Refer to official tool websites for installation of HISAT2, SAMtools, and Subread.
+
 ## ⚙️ RNA-seq Analysis Workflow
 
 <p align="center">
